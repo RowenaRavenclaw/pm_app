@@ -13,7 +13,7 @@ function ProjectSideBar({
         Project SideBar
       </h2>
       <div>
-        <Button onCLick={handleStartAddProject}>+ Add new project</Button>
+        <Button onClick={handleStartAddProject}>+ Add new project</Button>
       </div>
       <ul className="mt-8">
         {projects.map((project) => {
